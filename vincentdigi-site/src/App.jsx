@@ -10,7 +10,7 @@ function App() {
     <div>
       <Sidenav />
       <Hero />
-      {/* <Main /> */}
+      <Main />
     </div>
   )
 }

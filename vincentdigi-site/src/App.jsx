@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Sidenav from './components/Sidenav'
+import Hero from './components/Hero'
 import Main from './components/Main'
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <div>
       <Sidenav />
-      <Main />
+      <Hero />
+      {/* <Main /> */}
     </div>
   )
 }

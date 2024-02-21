@@ -16,6 +16,12 @@ const Hero = () => {
                         <a href="https://github.com/vdigi00">
                             <FaGithub className='cursor-pointer' size={30} />
                         </a>
+                        <a href="https://www.linkedin.com/in/vincentdigi/">
+                            <FaLinkedinIn className='cursor-pointer' size={30} />
+                        </a>
+                        <a href="https://github.com/vdigi00">
+                            <FaGithub className='cursor-pointer' size={30} />
+                        </a>
                     </div>
                 </div>
             </div>

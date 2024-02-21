@@ -10,8 +10,12 @@ const Hero = () => {
                     <h1 className='sm:text-5xl text-4xl font-bold text-grey-800'>Welcome</h1>
                     <h2 className='flex sm:text-3xl text-2xl pt-4 text-grey-800'>My name is Vincent DiGiovanni</h2>
                     <div className='flex justify-between pt-6 max-w-[100px] w-full'>
-                        <FaLinkedinIn className='cursor-pointer' size={30} />
-                        <FaGithub className='cursor-pointer' size={30} />
+                        <a href="https://www.linkedin.com/in/vincentdigi/">
+                            <FaLinkedinIn className='cursor-pointer' size={30} />
+                        </a>
+                        <a href="https://github.com/vdigi00">
+                            <FaGithub className='cursor-pointer' size={30} />
+                        </a>
                     </div>
                 </div>
             </div>

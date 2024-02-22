@@ -2,8 +2,9 @@ import React from 'react'
 
 const linkData = [
     { href: '#hero', text: 'Home' },
+    { href: '#main', text: 'About' },
     { href: '#projects', text: 'Projects' },
-    { href: '#resume', text: 'Resume' },
+    { href: '#skills', text: 'Skills' },
     { href: '#contact', text: 'Contact' },
 ]
 

@@ -24,6 +24,21 @@ const Skills = () => {
                     <div className='border'>
                         JavaScript
                     </div>
+                    <div className='border'>
+                        Vite
+                    </div>
+                    <div className='border'>
+                        Electronics Repair
+                    </div>
+                    <div className='border'>
+                        Soldering
+                    </div>
+                    <div className='border'>
+                        Music
+                    </div>
+                    <div className='border'>
+                        Guitar
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaGitAlt, FaPython, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { SiVmware, SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
 
-const Icon = ({ type }) => {
+const Icon = ({type}) => {
     switch (type) {
         case 'git':
             return <FaGitAlt />;
@@ -49,8 +49,8 @@ const Skills = () => {
                 <h1 className='text-4xl font-bold'>Skills & Interests:</h1>
                 <div className='grid grid-cols-4 gap-6'>
                     {linkData.map((link, index) => (
-                        <div key={index} className={`border flex items-start align-middle p-3`}>
-                            <Icon type={link.icon} />
+                        <div key={index} className={`border flex items-start align-middle justify-center p-3`}>
+                            <Icon type={link.icon} size={30} />
                             <span className='pl-3'>{link.text}</span>
                         </div>
                     ))}

@@ -39,7 +39,7 @@ const Nav = () => {
                     <div className='fixed w-full h-screen bg-white/40 flex flex-col justify-center items-center z-20'> 
                         {linkData.map((link, index) => (
                             <a key={index} className={`sm:w-[30%] w=[20%] flex justify-center items-center rounded-lg shadow-md bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200`} href={link.href}>
-                                <Icon type={link.icon} size={20} />
+                                <Icon type={link.icon} />
                                 <span className='pl-4'>{link.text}</span>
                             </a>
                         ))}

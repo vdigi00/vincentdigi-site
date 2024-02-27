@@ -1,59 +1,54 @@
 import React from 'react';
 import { FaGitAlt, FaPython, FaJava, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiVmware, SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
-
-const Icon = ({type}) => {
-    switch (type) {
-        case 'git':
-            return <FaGitAlt />;
-        case 'vmware':
-            return <SiVmware />;
-        case 'bash':
-            return <SiGnubash />;
-        case 'python':
-            return <FaPython />;
-        case 'java':
-            return <FaJava />;
-        case 'javascript':
-            return <SiJavascript />;
-        case 'vite':
-            return <SiVite />;
-        case 'html':
-            return <FaHtml5 />;
-        case 'css':
-            return <FaCss3Alt />;
-        case 'tailwindcss':
-            return <SiTailwindcss />;
-        default:
-            return null;
-    }
-}
-
-const linkData = [
-    { text: 'Git', icon: 'git' },
-    { text: 'VMWare', icon: 'vmware' },
-    { text: 'Bash', icon: 'bash' },
-    { text: 'Python', icon: 'python' },
-    { text: 'Java', icon: 'java' },
-    { text: 'JavaScript', icon: 'javascript' },
-    { text: 'Vite', icon: 'vite' },
-    { text: 'TailwindCSS', icon: 'tailwindcss'},
-    { text: 'HTML', icon: 'html'},
-    { text: 'CSS', icon: 'css'}
-]
+import { SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
+import { GrVmware } from "react-icons/gr";
 
 const Skills = () => {
     return (
-        <div id='skills' className='min-h-[50em]'>
+        <div id='skills' className='min-h-[50em] cursor-default'>
             <div className='max-w-[1000px] m-auto md:pl-20 p-4 py-16 '>
-                <h1 className='text-4xl font-bold'>Skills & Interests:</h1>
+                <h1 className='text-4xl font-bold pb-6'>Skills & Interests:</h1>
                 <div className='grid grid-cols-4 gap-6'>
-                    {linkData.map((link, index) => (
-                        <div key={index} className={`border flex items-start align-middle justify-center p-3`}>
-                            <Icon type={link.icon} size={30} />
-                            <span className='pl-3'>{link.text}</span>
-                        </div>
-                    ))}
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <FaGitAlt size={30} />
+                        <span className='pl-3'>Git</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <GrVmware size={30} />
+                        <span className='pl-3'>VMWare</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <SiGnubash size={30} />
+                        <span className='pl-3'>Bash</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <FaPython size={30} />
+                        <span className='pl-3'>Python</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <FaJava size={30} />
+                        <span className='pl-3'>Java</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <SiJavascript size={30} />
+                        <span className='pl-3'>JavaScript</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <SiVite size={30} />
+                        <span className='pl-3'>Vite</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <SiTailwindcss size={30} />
+                        <span className='pl-3'>TailwindCSS</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <FaHtml5 size={30} />
+                        <span className='pl-3'>HTML</span>
+                    </div>
+                    <div className='border flex items-center align-middle justify-center p-3 cursor-pointer'>
+                        <FaCss3Alt size={30} />
+                        <span className='pl-3'>CSS</span>
+                    </div> 
                 </div>
             </div>
         </div>

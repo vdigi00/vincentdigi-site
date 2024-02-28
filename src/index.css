@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-      font-family: "LTHoop-Bold";
-      src: url('./assets/fonts/LTHoop/LTHoop-Bold.otf') format('truetype');
-    }
-    @font-face {
-      font-family: "LTHoop-SemiBold";
-      src: url('./assets/fonts/LTHoop/LTHoop-SemiBold.otf') format('truetype');
-    }
+  @font-face {
+    font-family: "LTHoop-Bold";
+    src: url('./assets/fonts/LTHoop/LTHoop-Bold.otf') format('truetype');
   }
+  @font-face {
+    font-family: "LTHoop-SemiBold";
+    src: url('./assets/fonts/LTHoop/LTHoop-SemiBold.otf') format('truetype');
+  }
+}
+@layer components{
+  .skills-item {
+    @apply border flex lg:basis-skills-lg md:basis-skills-md basis-skills-sm items-center align-middle justify-center p-4 cursor-pointer md:text-base text-sm font-LT-Hoop-SemiBold;
+  }
+}

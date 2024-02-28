@@ -48,7 +48,7 @@ const Nav = () => {
                 : (
                     <nav className='fixed w-full invisible lg:visible flex flex-nowrap flex-row justify-center items-center z-[99] bg-white/60'>
                         {linkData.map((link, index) => (
-                        <a key={index} className={`w-[8em] flex justify-center items-center mx-1 p-3 font-LT-Hoop-Bold bg-white/80 hover:bg-gray-200`} href={link.href}>
+                        <a key={index} className={`w-[8em] flex justify-center items-center mx-1 p-3 text-lg font-LT-Hoop-SemiBold bg-white/80 hover:bg-gray-200`} href={link.href}>
                             {link.text}
                         </a>
                         ))}

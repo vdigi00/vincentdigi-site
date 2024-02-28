@@ -14,6 +14,17 @@
 }
 @layer components{
   .skills-item {
-    @apply border flex lg:basis-skills-lg md:basis-skills-md basis-skills-sm items-center align-middle justify-center p-4 cursor-pointer md:text-base text-sm font-LT-Hoop-SemiBold;
+    @apply hover:scale-110 outline outline-2 flex min-w-[206px] lg:basis-skills-lg md:basis-skills-md basis-skills-sm items-center 
+    align-middle justify-center p-4 cursor-pointer md:text-lg text-base font-LT-Hoop-SemiBold shadow-md shadow-slate-600;
   }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
 }

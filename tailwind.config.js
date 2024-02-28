@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'LT-Hoop-Bold': ['"LTHoop-Bold"', 'sans-serif'],
+        'LT-Hoop-SemiBold': ['"LTHoop-SemiBold"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

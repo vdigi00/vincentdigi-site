@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "LTHoop-Bold";
+      src: url('./assets/fonts/LTHoop/LTHoop-Bold.otf') format('truetype');
+    }
+    @font-face {
+      font-family: "LTHoop-SemiBold";
+      src: url('./assets/fonts/LTHoop/LTHoop-SemiBold.otf') format('truetype');
+    }
+  }

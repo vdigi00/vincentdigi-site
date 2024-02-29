@@ -10,9 +10,9 @@ import { SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
     return (
         <div id='skills' className='min-h-[50em] cursor-default'>
-            <div className='max-w-[1000px] m-auto md:px-6 p-4 py-16 '>
-                <h1 className='lg:text-4xl text-3xl pb-6 font-LT-Hoop-Bold'>Skills:</h1>
-                <div className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
+            <div className='max-w-[1000px] m-auto p-8 py-16 '>
+                <h1 data-aos='fade-right' className='lg:text-4xl text-3xl pb-6 font-LT-Hoop-Bold'>Skills:</h1>
+                <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-up' class='skills-item'>
                         <FaGitAlt size={35}/>
                         <span className='pl-3'>Git</span>
@@ -54,8 +54,8 @@ const Skills = () => {
                         <span className='pl-3'>TailwindCSS</span>
                     </div>
                 </div>
-                <h1 className='lg:text-4xl text-3xl font-bold py-6 font-LT-Hoop-Bold'>Interests:</h1>
-                <div className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
+                <h1 data-aos='fade-right' className='lg:text-4xl text-3xl font-bold py-6 font-LT-Hoop-Bold'>Interests:</h1>
+                <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-up' class='skills-item'>
                         <GiSolderingIron size={35} />
                         <span className='pl-3'>Soldering</span>

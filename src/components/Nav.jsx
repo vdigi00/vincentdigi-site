@@ -9,23 +9,23 @@ const Nav = () => {
     
     return (
         <div id='nav'> 
-           <AiOutlineMenu onClick={ handleNav } className='fixed top-8 right-8 z-[99] lg:hidden' size={30} />
+            <AiOutlineMenu onClick={ handleNav } className='fixed top-8 right-8 z-[99] lg:hidden' size={30} />
             {
                 nav ? (
-                    <div className='fixed w-full h-screen bg-white/40 flex flex-col justify-center items-center z-20'>
-                        <a class='mobile-nav' href='#home'>
+                    <div className='fixed w-full h-screen bg-gray-300/50 flex flex-col justify-center items-center z-20'>
+                        <a onClick={ handleNav } class='mobile-nav' href='#home'>
                             Home
                         </a>
-                        <a class='mobile-nav' href='#about'>
+                        <a onClick={ handleNav } class='mobile-nav' href='#about'>
                             About
                         </a>
-                        <a class='mobile-nav' href='#projects'>
+                        <a onClick={ handleNav } class='mobile-nav' href='#projects'>
                             Projects
                         </a>
-                        <a class='mobile-nav' href='#skills'>
+                        <a onClick={ handleNav } class='mobile-nav' href='#skills'>
                             Skills
                         </a>
-                        <a class='mobile-nav' href='#contact'>
+                        <a onClick={ handleNav } class='mobile-nav' href='#contact'>
                             Contact
                         </a>
                     </div>

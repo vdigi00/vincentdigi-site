@@ -1,6 +1,6 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
-import Main from './components/Main'
+import About from './components/About'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import AOS from 'aos';
@@ -19,7 +19,7 @@ function App() {
     <div>
       <Nav />
       <Hero />
-      <Main />
+      <About />
       <Projects />
       <Skills />
     </div>

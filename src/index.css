@@ -30,7 +30,7 @@
   }
 
   .mobile-nav{
-    @apply sm:w-[30%] flex justify-center items-center bg-gray-100 m-2 p-4 text-xl font-LT-Hoop-Bold cursor-pointer hover:scale-110 ease-in duration-150;
+    @apply min-w-[200px] flex justify-center items-center bg-white m-2 p-4 text-xl font-LT-Hoop-Bold cursor-pointer hover:scale-110 ease-in duration-150 ;
   }
 
   .desktop-nav{

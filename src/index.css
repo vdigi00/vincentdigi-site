@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "LTHoop-Bold";
+    src: url('./assets/fonts/LTHoop/LTHoop-Bold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "LTHoop-SemiBold";
+    src: url('./assets/fonts/LTHoop/LTHoop-SemiBold.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "GreenKingsWood-Regular";
+    src: url('./assets/fonts/GreenKingsWood/GreenKingsWood-Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "MADE_TOMMY_Medium";
+    src: url('./assets/fonts/MADETOMMY/MADE_TOMMY_Medium.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "MADE_TOMMY_Regular";
+    src: url('./assets/fonts/MADETOMMY/MADE_TOMMY_Regular.otf') format('opentype');
+  }
+}
+@layer components{
+  .skills-item {
+    @apply outline outline-2 flex min-w-[210px] lg:basis-skills-lg basis-skills-md items-center align-middle justify-center p-4 cursor-pointer md:text-lg text-base md:font-MADE_TOMMY_Medium font-MADE_TOMMY_Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
+  }
+
+  .mobile-nav{
+    @apply min-w-[200px] flex justify-center items-center bg-white m-2 p-4 text-xl font-LT-Hoop-Bold cursor-pointer hover:scale-110 ease-in duration-150 ;
+  }
+
+  .desktop-nav{
+    @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg font-LT-Hoop-SemiBold bg-white/80 hover:bg-gray-200 ease-in duration-150;
+  }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}

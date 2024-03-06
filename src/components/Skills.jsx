@@ -102,7 +102,7 @@ const Skills = () => {
                     </div>
                     <div data-aos='fade-in'>
                         <div class='skills-item'>
-                            <img src='./src/assets/images/printer.svg' className='w-9 h-auto'></img>
+                            <img src='/images/printer.svg' className='w-9 h-auto'></img>
                             <span className='pl-3'>3D Printing</span>
                         </div>
                     </div>

@@ -5,23 +5,23 @@
 @layer base {
   @font-face {
     font-family: "LTHoop-Bold";
-    src: url('./assets/fonts/LTHoop/LTHoop-Bold.otf') format('opentype');
+    src: url('/fonts/LTHoop/LTHoop-Bold.otf') format('opentype');
   }
   @font-face {
     font-family: "LTHoop-SemiBold";
-    src: url('./assets/fonts/LTHoop/LTHoop-SemiBold.otf') format('opentype');
+    src: url('/fonts/LTHoop/LTHoop-SemiBold.otf') format('opentype');
   }
   @font-face {
     font-family: "GreenKingsWood-Regular";
-    src: url('./assets/fonts/GreenKingsWood/GreenKingsWood-Regular.otf') format('opentype');
+    src: url('/fonts/GreenKingsWood/GreenKingsWood-Regular.otf') format('opentype');
   }
   @font-face {
     font-family: "MADE_TOMMY_Medium";
-    src: url('./assets/fonts/MADETOMMY/MADE_TOMMY_Medium.otf') format('opentype');
+    src: url('/fonts/MADETOMMY/MADE_TOMMY_Medium.otf') format('opentype');
   }
   @font-face {
     font-family: "MADE_TOMMY_Regular";
-    src: url('./assets/fonts/MADETOMMY/MADE_TOMMY_Regular.otf') format('opentype');
+    src: url('/fonts/MADETOMMY/MADE_TOMMY_Regular.otf') format('opentype');
   }
 }
 @layer components{

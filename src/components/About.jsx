@@ -8,7 +8,6 @@ const About = () => {
                 <p data-aos='fade-right' data-aos-delay='500' className='flex-wrap text-xl font-LT-Hoop-SemiBold pt-5'>My name is Vincent DiGiovanni, I am a student at Rochester Institute of Technology, studying Computing and Information Technologies.</p>
                 <p data-aos='fade-right' data-aos-delay='500' className='text-xl font-LT-Hoop-SemiBold pt-5'>My concentration focuses on Networking, specifically Network Services & Protocols, Routing and Switching, Wireless Networking, and Network Design and Performance.</p>
                 <p data-aos='fade-right' data-aos-delay='500' className='text-xl font-LT-Hoop-SemiBold pt-5'>I am passionate about all things computers, electronics, and I love to learn.</p>
-                <p data-aos='fade-right' data-aos-delay='500' className='text-xl font-LT-Hoop-SemiBold pt-5'></p>
             </div>
         </div>
     )

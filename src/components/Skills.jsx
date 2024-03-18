@@ -10,8 +10,8 @@ import { SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
     return (
         <div id='skills' className='min-h-[50em] cursor-default'>
-            <div className='max-w-[1000px] m-auto p-8 py-16 '>
-                <h1 data-aos='fade-right' className='lg:text-4xl text-3xl pb-6 font-LT-Hoop-Bold'>Skills:</h1>
+            <div className='max-w-[1000px] m-auto p-8 pt-6'>
+                <h1 data-aos='fade-right' className='text-4xl font-MADE-TOMMY-Medium flex py-8'>Skills:</h1>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-in'>
                         <a href='#projects' class='skills-item'>
@@ -80,7 +80,7 @@ const Skills = () => {
                         </a>
                     </div>
                 </div>
-                <h1 data-aos='fade-right' className='lg:text-4xl text-3xl font-bold py-6 font-LT-Hoop-Bold'>Interests:</h1>
+                <h1 data-aos='fade-right' className='text-4xl font-MADE-TOMMY-Medium flex py-8'>Interests:</h1>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-in'>
                         <div class='skills-item'>

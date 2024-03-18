@@ -5,9 +5,10 @@
 @layer base {
   html{
     font-family: "MADE-TOMMY-Regular", system-ui, sans-serif;
+    @apply scroll-pt-[52px];
   }
   h1{
-    @apply text-4xl font-MADE-TOMMY-Medium py-8;
+    @apply text-4xl font-MADE-TOMMY-Medium py-10;
   }
   @font-face {
     font-family: "MADE-TOMMY-Regular";

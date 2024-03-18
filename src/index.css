@@ -3,29 +3,19 @@
 @tailwind utilities;
 
 @layer base {
-  @font-face {
-    font-family: "LTHoop-Regular";
-    src: url('/fonts/LTHoop/LTHoop-Regular.otf') format('opentype');
+  html{
+    font-family: "MADE-TOMMY-Regular", system-ui, sans-serif;
   }
-  @font-face {
-    font-family: "LTHoop-SemiBold";
-    src: url('/fonts/LTHoop/LTHoop-SemiBold.otf') format('opentype');
-  }
-  @font-face {
-    font-family: "LTHoop-Bold";
-    src: url('/fonts/LTHoop/LTHoop-Bold.otf') format('opentype');
-  }
-  @font-face {
-    font-family: "GreenKingsWood-Regular";
-    src: url('/fonts/GreenKingsWood/GreenKingsWood-Regular.otf') format('opentype');
-  }
-  @font-face {
-    font-family: "MADE-TOMMY-Medium";
-    src: url('/fonts/MADETOMMY/MADE-TOMMY-Medium.otf') format('opentype');
+  h1{
+    @apply text-4xl font-MADE-TOMMY-Medium py-8;
   }
   @font-face {
     font-family: "MADE-TOMMY-Regular";
     src: url('/fonts/MADETOMMY/MADE-TOMMY-Regular.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "MADE-TOMMY-Medium";
+    src: url('/fonts/MADETOMMY/MADE-TOMMY-Medium.otf') format('opentype');
   }
 }
 @layer components{

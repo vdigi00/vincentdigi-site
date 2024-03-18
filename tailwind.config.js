@@ -11,11 +11,12 @@ export default {
         "skills-md": "calc(33.33% - (2/3 * 1rem))"
       },
       fontFamily: {
-        'LT-Hoop-Bold': ['"LTHoop-Bold"', 'sans-serif'],
+        'LT-Hoop-Regular': ['"LTHoop-Regular"', 'sans-serif'],
         'LT-Hoop-SemiBold': ['"LTHoop-SemiBold"', 'sans-serif'],
+        'LT-Hoop-Bold': ['"LTHoop-Bold"', 'sans-serif'],
         'GreenKingsWood-Regular': ['"GreenKingsWood-Regular"', 'sans-serif'],
-        'MADE_TOMMY_Medium': ['"MADE_TOMMY_Medium"', 'sans-serif'],
-        'MADE_TOMMY_Regular': ['"MADE_TOMMY_Regular"', 'sans-serif']
+        'MADE-TOMMY-Medium': ['"MADE-TOMMY-Medium"', 'sans-serif'],
+        'MADE-TOMMY-Regular': ['"MADE-TOMMY-Regular"', 'sans-serif']
       },
     },
   },

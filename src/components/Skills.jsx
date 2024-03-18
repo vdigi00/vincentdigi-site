@@ -11,7 +11,7 @@ const Skills = () => {
     return (
         <div id='skills' className='min-h-[50em] cursor-default'>
             <div className='max-w-[1000px] m-auto p-8 pt-6'>
-                <h1 data-aos='fade-right' className='text-4xl font-MADE-TOMMY-Medium flex py-8'>Skills:</h1>
+                <h1 data-aos='fade-right'>Skills:</h1>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-in'>
                         <a href='#projects' class='skills-item'>
@@ -80,7 +80,7 @@ const Skills = () => {
                         </a>
                     </div>
                 </div>
-                <h1 data-aos='fade-right' className='text-4xl font-MADE-TOMMY-Medium flex py-8'>Interests:</h1>
+                <h1 data-aos='fade-right'>Interests:</h1>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-in'>
                         <div class='skills-item'>

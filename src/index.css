@@ -31,6 +31,10 @@
   .desktop-nav{
     @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg font-MADE-TOMMY-Medium bg-white/80 hover:bg-gray-200 ease-in duration-150;
   }
+  .swiper {
+    width: 600px;
+    height: 300px;
+  }
 }
 @media screen and (prefers-reduced-motion: reduce) {
   html {

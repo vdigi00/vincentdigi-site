@@ -25,9 +25,9 @@ const Nav = () => {
                         <a onClick={ handleNav } class='mobile-nav' href='#skills'>
                             Skills
                         </a>
-                        <a onClick={ handleNav } class='mobile-nav' href='#contact'>
+                        {/*<a onClick={ handleNav } class='mobile-nav' href='#contact'>
                             Contact
-                        </a>
+                        </a>*/}
                     </div>
                 )
                 : (
@@ -44,9 +44,9 @@ const Nav = () => {
                         <a class='desktop-nav' href='#skills'>
                             Skills
                         </a>
-                        <a class='desktop-nav' href='#contact'>
+                        {/*<a class='desktop-nav' href='#contact'>
                             Contact
-                        </a>
+                        </a>*/}
                     </nav>
                 )
             }

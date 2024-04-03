@@ -5,7 +5,7 @@
 @layer base {
   html{
     font-family: "MADE-TOMMY-Regular", system-ui, sans-serif;
-    @apply scroll-pt-[52px];
+    scroll-behavior: smooth;
   }
   h1{
     @apply text-4xl font-MADE-TOMMY-Medium py-10;
@@ -31,13 +31,31 @@
   .desktop-nav{
     @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg font-MADE-TOMMY-Medium bg-white/80 hover:bg-gray-200 ease-in duration-150;
   }
+  
+  swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }
 @media screen and (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
-}
-
-html{
-  scroll-behavior: smooth;
 }

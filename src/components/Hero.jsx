@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 const Hero = () => {
     return (
         <div id='home'>
-            <img className='w-full h-screen object-cover' src='/images/cover.jpg' alt='Space Background'></img>
+            <img className='w-full h-screen object-cover' src='/images/cover.jpg' alt='Space Background' loading=" lazy" />
             <div className='w-full h-screen absolute top-0 left-0 bg-white/70 cursor-default'>
                 <div className='flex max-w-[700px] m-auto h-full w-full flex-col justify-center lg:items-start items-center'>
                     <h1 data-aos='fade-right' className='lg:text-8xl md:text-7xl text-6xl p-0'>Welcome</h1>

@@ -13,38 +13,38 @@ const Nav = () => {
             {
                 nav ? (
                     <div className='fixed w-full h-screen bg-gray-300/50 flex flex-col justify-center items-center z-20'>
-                        <a onClick={ handleNav } class='mobile-nav' href='#home'>
+                        <a onClick={ handleNav } className='mobile-nav' href='#home'>
                             Home
                         </a>
-                        <a onClick={ handleNav } class='mobile-nav' href='#about'>
+                        <a onClick={ handleNav } className='mobile-nav' href='#about'>
                             About
                         </a>
-                        <a onClick={ handleNav } class='mobile-nav' href='#projects'>
+                        <a onClick={ handleNav } className='mobile-nav' href='#projects'>
                             Projects
                         </a>
-                        <a onClick={ handleNav } class='mobile-nav' href='#skills'>
+                        <a onClick={ handleNav } className='mobile-nav' href='#skills'>
                             Skills
                         </a>
-                        {/*<a onClick={ handleNav } class='mobile-nav' href='#contact'>
+                        {/*<a onClick={ handleNav } className='mobile-nav' href='#contact'>
                             Contact
                         </a>*/}
                     </div>
                 )
                 : (
                     <nav className='fixed w-full invisible lg:visible flex flex-nowrap flex-row justify-center items-center z-[99] bg-gray-300/60'>
-                        <a class='desktop-nav' href='#home'>
+                        <a className='desktop-nav' href='#home'>
                             Home
                         </a>
-                        <a class='desktop-nav' href='#about'>
+                        <a className='desktop-nav' href='#about'>
                             About
                         </a>
-                        <a class='desktop-nav' href='#projects'>
+                        <a className='desktop-nav' href='#projects'>
                             Projects
                         </a>
-                        <a class='desktop-nav' href='#skills'>
+                        <a className='desktop-nav' href='#skills'>
                             Skills
                         </a>
-                        {/*<a class='desktop-nav' href='#contact'>
+                        {/*<a className='desktop-nav' href='#contact'>
                             Contact
                         </a>*/}
                     </nav>

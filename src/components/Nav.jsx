@@ -31,7 +31,7 @@ const Nav = () => {
                     </div>
                 )
                 : (
-                    <nav className='fixed w-full invisible lg:visible flex flex-nowrap flex-row justify-center items-center z-[99] bg-gray-300/60'>
+                    <nav className='fixed w-full invisible lg:visible flex flex-nowrap flex-row justify-center items-center z-[99] bg-slate-800/70'>
                         <a className='desktop-nav' href='#home'>
                             Home
                         </a>

@@ -11,10 +11,6 @@ import 'aos/dist/aos.css';
 AOS.init({
   duration: 750, 
   once: true,
-  disable: function() {
-    var maxWidth = 640;
-    return window.innerWidth < maxWidth;
-  }
 });
 
 function App() {

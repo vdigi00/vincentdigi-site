@@ -11,7 +11,7 @@
   @media screen and (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
-    }
+    } 
   }
   h1{
     @apply text-4xl font-MADE-TOMMY-Medium py-10;
@@ -35,27 +35,24 @@
   }
 
   .desktop-nav{
-    @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg font-MADE-TOMMY-Medium bg-white/80 hover:bg-gray-200 ease-in duration-150;
+    @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg text-white font-MADE-TOMMY-Regular hover:underline underline-offset-2 ease-in duration-150;
   }
   
-  .swiper {
-    flex: none;
+  .swiper{
     width: 100%;
     height: 100%;
   }
 
-  .swiper-slide {
+  .swiper-slide{
     text-align: center;
     font-size: 18px;
     background: #f3f4f6;
-    display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .swiper-slide img {
-    display: block;
     width: 100%;
     max-height: 400px;
     object-fit: contain;
@@ -64,10 +61,10 @@
   @media only screen and (min-width: 1024px) {
     html{
       font-size: 100%;
+      scroll-padding-top: 52px;
     }
 
     .swiper {
-      flex: 1;
       width: 50%;
     }
   }

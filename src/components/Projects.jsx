@@ -11,7 +11,7 @@ const Projects = () => {
         <div id='projects' className='bg-gray-100 cursor-default'>
             <div className='max-w-[1500px] m-auto px-8'>
                 <h1 data-aos='fade-right'>Projects:</h1>
-                <div data-aos='fade-right' data-aos-delay='500' className='text-xl py-5'>
+                <div data-aos='fade-right' data-aos-delay='500' className='text-xl pb-5'>
                     <h3 className='text-2xl font-MADE-TOMMY-Medium'>Personal Website</h3>
                     <div className='flex-none lg:flex'>
                         <ul className='my-5 ml-8 list-disc flex-1'>

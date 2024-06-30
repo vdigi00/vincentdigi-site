@@ -10,7 +10,7 @@ import { SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
 const Skills = () => {
     return (
         <div id='skills' className='cursor-default'>
-            <div className='max-w-[1500px] m-auto px-8 pb-10'>
+            <div className='max-w-[1200px] m-auto px-8 pb-10'>
                 <h1 data-aos='fade-right'>Skills:</h1>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-in'>

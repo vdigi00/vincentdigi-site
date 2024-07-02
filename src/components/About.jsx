@@ -6,7 +6,7 @@ const About = () => {
         <div id='about' className='mb-10 cursor-default'>
             <div className='max-w-[1200px] m-auto px-8'>
                 <h1 data-aos='fade-right'>About Me:</h1>
-                <div data-aos='fade-right' data-aos-delay='500' className='text-xl'>
+                <div data-aos='fade-left' data-aos-delay='500' className='text-xl'>
                     <p>My name is Vincent DiGiovanni, I am from right outside of Philadelphia, Pennsylvania.</p>
                     <p className='pt-4'>I am a student at Rochester Institute of Technology, studying Computing and Information Technologies.</p>
                     <p className='pt-4'>My concentration focuses on Networking, specifically Network Services & Protocols, Routing and Switching, Wireless Networking, and Network Design and Performance.</p>

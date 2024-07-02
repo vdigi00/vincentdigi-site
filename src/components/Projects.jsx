@@ -1,45 +1,60 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
 
 const Projects = () => {
     return (
         <div id='projects' className='bg-gray-100 cursor-default'>
             <div className='max-w-[1200px] m-auto px-8'>
                 <h1 data-aos='fade-right'>Projects:</h1>
-                <div data-aos='fade-right' data-aos-delay='500' className='text-xl pb-5'>
+                <div data-aos='fade-left' data-aos-delay='500' className='text-xl pb-5'>
                     <h3 className='text-2xl font-MADE-TOMMY-Medium'>Personal Website</h3>
                     <div className='flex-none lg:flex'>
-                        <ul className='my-5 ml-8 list-disc flex-1'>
+                        <ul className='my-5 ml-8 list-disc'>
                             <li>This site was developed using Vite/React, JavaScript, HTML, CSS, and TailwindCSS</li>
+                            <li>Accessible and Responsive design for ease of access and high-quality experience</li>
                             <li>Hosted on an AWS EC2 Linux Instance</li>
-                            <li>Responsive design</li>
                             <li>More content, changes, and optimizations coming soon...</li>
                             <li><a className='text-blue-500 underline' href='https://github.com/vdigi00/vincentdigi-site'>View GitHub Repository</a></li>
                         </ul>
-                        <Swiper modules={[Navigation, Pagination]} navigation pagination={{clickable: true}} loop autoplay allowTouchMove>
-                            <SwiperSlide className="swiper-slide"><img src='/images/projects/web2.jpg' alt='Personal Website, Mobile Responsiveness, Home Screen' loading="lazy" /></SwiperSlide>
-                            <SwiperSlide className="swiper-slide"><img src='/images/projects/web1.jpg' alt='Personal Website, Desktop Home Screen' loading="lazy" /></SwiperSlide>
-                            <SwiperSlide className="swiper-slide"><img src='/images/projects/web3.jpg' alt='Personal Website, Mobile Responsiveness, Navigation menu' loading="lazy" /></SwiperSlide>
-                        </Swiper>
                     </div>
                 </div>
                 <hr />
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl py-5'>
-                    <h3 className='text-2xl py-5 font-MADE-TOMMY-Medium'>Packet Analysis Tool</h3>
+                    <h3 className='text-2xl font-MADE-TOMMY-Medium'>Network Load Balancer</h3>
+                    <div className='flex-none lg:flex'>
+                        <ul className='my-5 ml-8 list-disc'>
+                            <li>Created a Content Delivery Network by configuring a Domain Controller and a Network Load Balancing Cluster</li>
+                            <li>Configured a Domain Controller with Active Directory and DNS, two Load Balancing Hosts, and four client machines</li>
+                            <li>Wrote a Python script to compute Load Balancing Cluster website response metrics</li>
+                            <li>Ran multiple experiments using varying Load Balancing Cluster configurations and wrote results report</li>
+                        </ul>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/iV-TYKPgMYY?si=3ISC_lW-R6t0JCtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <hr />
+                <div data-aos='fade-left' data-aos-delay='500' className='text-xl py-5'>
+                    <h3 className='text-2xl font-MADE-TOMMY-Medium'>Packet Analysis Tool</h3>
                     <ul className='my-5 ml-8 list-disc'>
                         <li>Developed a Network Packet Analysis Tool using Python</li>
                         <li>Filtered Network Packet Captures, parsed hexadecimal data, and computed metrics</li>
+                        <li>Computed per node, including Echo Reply and Request data, time, and distance metrics</li>
                         <li>Effectively worked as a team to complete all three tasks on a schedule</li>
                         <li><a className='text-blue-500 underline' href='https://github.com/vdigi00/PacketAnalysis'>View GitHub Repository</a></li>
                     </ul>
                 </div>
                 <hr />
-                <div data-aos='fade-right' data-aos-delay='500' className='text-xl py-5'>
+                <div data-aos='fade-left' data-aos-delay='500' className='text-xl py-5'>
+                    <h3 className='text-2xl font-MADE-TOMMY-Medium'>Network Load Balancer</h3>
+                    <div className='flex-none lg:flex'>
+                        <ul className='my-5 ml-8 list-disc'>
+                            <li>Created a Content Delivery Network by configuring a Domain Controller and a Network Load Balancing Cluster</li>
+                            <li>Configured a Domain Controller with Active Directory and DNS, two Load Balancing Hosts, and four client machines</li>
+                            <li>Wrote a Python script to compute Load Balancing Cluster website response metrics</li>
+                            <li>Ran multiple experiments using varying Load Balancing Cluster configurations and wrote results report</li>
+                        </ul>
+                    </div>
+                    <iframe src="https://www.youtube.com/embed/iV-TYKPgMYY?si=3ISC_lW-R6t0JCtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                {/*<div data-aos='fade-right' data-aos-delay='500' className='text-xl py-5'>
                     <h3 className='text-2xl py-5 font-MADE-TOMMY-Medium'>Fuzz Pedal</h3>
                     <div className='flex-none lg:flex'>
                         <ul className='my-5 ml-8 list-disc flex-1'>
@@ -48,15 +63,9 @@ const Projects = () => {
                             <li>Designed enclosure using AutoDesk Inventor</li>
                             <li>3D Printed using Creality Ender-3 V2</li>
                         </ul>
-                        <Swiper modules={[Navigation, Pagination]} navigation pagination={{clickable: true}} loop autoplay allowTouchMove>
-                                 <SwiperSlide className="swiper-slide"><img src='/images/projects/fuzz1.jpg' alt='Schematic of Maestro Fuzz-Tone FZ-1A' loading="lazy" /></SwiperSlide>
-                                 <SwiperSlide className="swiper-slide"><img src='/images/projects/fuzz2.jpg' alt='Prototype fuzz circuit on breadboard' loading="lazy" /></SwiperSlide>
-                                 <SwiperSlide className="swiper-slide"><img src='/images/projects/fuzz3.jpg' alt='Soldering fuzz circuit onto perforated board' loading="lazy" /></SwiperSlide>
-                                 <SwiperSlide className="swiper-slide"><img src='/images/projects/fuzz4.jpg' alt='Fuzz circuit in 3D printed enclosure' loading="lazy" /></SwiperSlide>
-                        </Swiper>
                     </div>
                 </div>
-                {/*<div className='text-xl'>
+                <div className='text-xl'>
                     <h3>3D Printed Planes</h3>
                 </div>*/}
             </div>

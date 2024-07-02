@@ -41,19 +41,6 @@ const Projects = () => {
                         <li><a className='text-blue-500 underline' href='https://github.com/vdigi00/PacketAnalysis'>View GitHub Repository</a></li>
                     </ul>
                 </div>
-                <hr />
-                <div data-aos='fade-left' data-aos-delay='500' className='text-xl py-5'>
-                    <h3 className='text-2xl font-MADE-TOMMY-Medium'>Network Load Balancer</h3>
-                    <div className='flex-none lg:flex'>
-                        <ul className='my-5 ml-8 list-disc'>
-                            <li>Created a Content Delivery Network by configuring a Domain Controller and a Network Load Balancing Cluster</li>
-                            <li>Configured a Domain Controller with Active Directory and DNS, two Load Balancing Hosts, and four client machines</li>
-                            <li>Wrote a Python script to compute Load Balancing Cluster website response metrics</li>
-                            <li>Ran multiple experiments using varying Load Balancing Cluster configurations and wrote results report</li>
-                        </ul>
-                    </div>
-                    <iframe src="https://www.youtube.com/embed/iV-TYKPgMYY?si=3ISC_lW-R6t0JCtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
                 {/*<div data-aos='fade-right' data-aos-delay='500' className='text-xl py-5'>
                     <h3 className='text-2xl py-5 font-MADE-TOMMY-Medium'>Fuzz Pedal</h3>
                     <div className='flex-none lg:flex'>

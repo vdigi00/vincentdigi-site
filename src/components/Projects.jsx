@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div id='projects' className='bg-gray-100 cursor-default'>
-            <div className='max-w-[1200px] m-auto px-8'>
+            <div className='max-w-[800px] m-auto px-8'>
                 <h1 data-aos='fade-right'>Projects:</h1>
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl pb-5'>
                     <h3 className='text-2xl font-MADE-TOMMY-Medium'>Personal Website</h3>
@@ -28,7 +28,6 @@ const Projects = () => {
                             <li>Ran multiple experiments using varying Load Balancing Cluster configurations and wrote results report</li>
                         </ul>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/iV-TYKPgMYY?si=3ISC_lW-R6t0JCtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <hr />
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl py-5'>

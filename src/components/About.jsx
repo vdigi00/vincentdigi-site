@@ -4,7 +4,7 @@ import { FaFileDownload } from "react-icons/fa";
 const About = () => {
     return (
         <div id='about' className='mb-10 cursor-default'>
-            <div className='max-w-[800px] m-auto px-8'>
+            <div className='m-auto overflow-hidden m-auto max-w-[1000px] p-8'>
                 <h1 data-aos='fade-right'>About Me:</h1>
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl'>
                     <p>My name is Vincent DiGiovanni, I am from right outside of Philadelphia, Pennsylvania.</p>

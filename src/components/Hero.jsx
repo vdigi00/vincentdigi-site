@@ -23,9 +23,9 @@ const Hero = () => {
                         </a>
                     </div>
                 </div>
-                <div data-aos='fade-up' data-aos-delay='1500' data-aos-anchor-placement="top" className='flex flex-col items-center mt-auto mb-4 text-white text-shadow'>
-                    <p>Scroll to learn more</p>
-                    <a>    
+                <div data-aos='fade-up' data-aos-delay='1500' data-aos-anchor-placement="top" className='mt-auto mb-4 text-white text-shadow'>
+                    <a href='#about' className='flex flex-col items-center'>
+                        <p>Scroll to learn more</p>
                         <RiArrowDownWideFill size={60} color="white"/>    
                     </a>
                     

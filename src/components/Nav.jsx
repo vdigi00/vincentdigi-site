@@ -9,10 +9,10 @@ const Nav = () => {
     
     return (
         <div id='nav'> 
-            <AiOutlineMenu onClick={ handleNav } className='fixed top-8 right-8 z-[99] lg:hidden' size={30} />
+            <AiOutlineMenu onClick={ handleNav } className='fixed top-8 right-8 z-[99] lg:hidden' size={30} color="white"/>
             {
                 nav ? (
-                    <div className='fixed w-full h-screen bg-gray-300/50 flex flex-col justify-center items-center z-20'>
+                    <div className='fixed w-full h-screen bg-black/50 flex flex-col justify-center items-center z-20'>
                         <a onClick={ handleNav } className='mobile-nav' href='#home'>
                             Home
                         </a>

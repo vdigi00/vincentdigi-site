@@ -1,34 +1,29 @@
 import React from 'react';
-import { FaGitAlt, FaPython, FaJava, FaHtml5, FaCss3Alt, FaDraftingCompass, FaMusic, FaGuitar, FaHiking, FaReact  } from "react-icons/fa";
+import { FaGitAlt, FaPython, FaJava, FaReact, FaHtml5, FaCss3Alt, FaLinux, FaWindows, FaServer, FaDraftingCompass, FaMusic, FaGuitar, FaHiking } from "react-icons/fa";
 import { FaTent } from "react-icons/fa6";
 import { GiSolderingIron } from "react-icons/gi";
 import { GrVmware } from "react-icons/gr";
 import { HiMiniWrenchScrewdriver } from "react-icons/hi2";
 import { IoBarbell } from "react-icons/io5";
-import { SiGnubash, SiJavascript, SiVite, SiTailwindcss } from "react-icons/si";
+import { SiGnubash, SiCsharp, SiJavascript, SiVite, SiTailwindcss, SiMicrosoftazure } from "react-icons/si";
 
 const Skills = () => {
     return (
         <div id='skills' className='cursor-default'>
-            <div className='max-w-[1200px] m-auto px-8 pb-10'>
-                <h1 data-aos='fade-right'>Skills:</h1>
+            <div className='m-auto max-w-[1000px] p-8'>
+                <h1 data-aos='fade-right' className='pb-8 underline'>Skills</h1>
+                <h2 data-aos='fade-right' className='pb-8'>Languages & Frameworks:</h2>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center gap-4 lg:text-xl text-lg'>
-                    <div data-aos='fade-in'>
-                        <a href='#projects' className='skills-item'>
-                            <FaGitAlt size={35}/>
-                            <span className='pl-3'>Git</span>
-                        </a>
-                    </div>
-                    <div data-aos='fade-in'>
-                        <a href='#projects' className='skills-item'>
-                            <GrVmware size={35} />
-                            <span className='pl-3'>VMWare</span>
-                        </a>
-                    </div>
                     <div data-aos='fade-in'>
                         <a href='#projects' className='skills-item'>
                             <SiGnubash size={35} />
                             <span className='pl-3'>Bash</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <FaGitAlt size={35}/>
+                            <span className='pl-3'>Git</span>
                         </a>
                     </div>
                     <div data-aos='fade-in'>
@@ -45,14 +40,8 @@ const Skills = () => {
                     </div>
                     <div data-aos='fade-in'>
                         <a href='#projects' className='skills-item'>
-                            <FaHtml5 size={35} />
-                            <span className='pl-3'>HTML</span>
-                        </a>
-                    </div>
-                    <div data-aos='fade-in'>
-                        <a href='#projects' className='skills-item'>
-                            <FaCss3Alt size={35} />
-                            <span className='pl-3'>CSS</span>
+                            <SiCsharp size={35} />
+                            <span className='pl-3'>C#</span>
                         </a>
                     </div>
                     <div data-aos='fade-in'> 
@@ -75,12 +64,58 @@ const Skills = () => {
                     </div>
                     <div data-aos='fade-in'>
                         <a href='#projects' className='skills-item'>
+                            <FaHtml5 size={35} />
+                            <span className='pl-3'>HTML</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <FaCss3Alt size={35} />
+                            <span className='pl-3'>CSS</span>
+                        </a>
+                    </div>
+
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
                             <SiTailwindcss size={35} />
                             <span className='pl-3'>TailwindCSS</span>
                         </a>
                     </div>
                 </div>
-                <h1 data-aos='fade-right'>Interests:</h1>
+                <h2 data-aos='fade-right' className='py-8'>Tools & Operating Systems:</h2>
+                <div data-aos-delay='500' className='flex flex-wrap justify-center gap-4 lg:text-xl text-lg'>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <FaLinux size={35} />
+                            <span className='pl-3'>Linux/UNIX</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <FaWindows size={35} />
+                            <span className='pl-3'>Windows</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <FaServer size={35} />
+                            <span className='pl-3'>Windows Server</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <GrVmware size={35} />
+                            <span className='pl-3'>Virtualization</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <SiMicrosoftazure size={35} />
+                            <span className='pl-3'>Azure</span>
+                        </a>
+                    </div>
+                </div>
+                <h1 data-aos='fade-right' className='py-8 underline'>Interests</h1>
                 <div data-aos-delay='500' className='flex flex-wrap justify-center lg:gap-6 gap-4 lg:text-xl text-lg'>
                     <div data-aos='fade-in'>
                         <div className='skills-item'>
@@ -91,7 +126,7 @@ const Skills = () => {
                     <div data-aos='fade-in'>
                         <div className='skills-item'>
                             <HiMiniWrenchScrewdriver size={35} />
-                            <span className='pl-3 text-base'>Electronics Repair</span>
+                            <span className='pl-3 text-sm'>Electronics Repair</span>
                         </div>
                     </div>
                     <div data-aos='fade-in'>

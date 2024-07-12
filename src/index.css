@@ -7,6 +7,7 @@
     font-family: "MADE-TOMMY-Regular", system-ui, sans-serif;
     scroll-behavior: smooth;
     font-size: 90%;
+    overflow-x: hidden;
   }
   @media screen and (prefers-reduced-motion: reduce) {
     html {
@@ -14,7 +15,13 @@
     } 
   }
   h1{
-    @apply text-4xl font-MADE-TOMMY-Medium py-10;
+    @apply text-4xl font-MADE-TOMMY-Medium;
+  }
+  h2{
+    @apply text-2xl font-MADE-TOMMY-Medium;
+  }
+  .text-shadow{
+    filter: drop-shadow(-1px 2px 2px rgb(0, 0, 0, 0.75));
   }
   @font-face {
     font-family: "MADE-TOMMY-Regular";
@@ -35,13 +42,13 @@
   }
 
   .desktop-nav{
-    @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg text-white font-MADE-TOMMY-Regular hover:outline outline-2 hover:underline underline-offset-4 ease-in duration-150;
+    @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg text-white font-MADE-TOMMY-Regular pt-4 border-b-4 border-transparent hover:border-white transition-all duration-200;
   }
-  
+
   @media only screen and (min-width: 1024px) {
     html{
       font-size: 100%;
-      scroll-padding-top: 52px;
+      scroll-padding-top: 60px;
     }
   }
 }

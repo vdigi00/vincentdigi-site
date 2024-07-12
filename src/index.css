@@ -34,7 +34,10 @@
 }
 @layer components{
   .skills-item {
-    @apply outline outline-2 flex min-w-[200px] lg:basis-skills-lg basis-skills-md items-center align-middle justify-center p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
+    @apply inline-block outline outline-2 min-w-[200px] max-h-[68px] content-center lg:basis-skills-lg basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
+  }
+  .skills-content{
+    @apply flex flex-1 justify-center items-center;
   }
 
   .mobile-nav{

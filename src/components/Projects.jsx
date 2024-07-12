@@ -6,6 +6,18 @@ const Projects = () => {
             <div className='m-auto max-w-[1000px] p-8'>
                 <h1 data-aos='fade-right' className='pb-8 underline'>Projects</h1>
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl pb-5'>
+                    <h3 className='text-2xl font-MADE-TOMMY-Medium'>C# Scheduling Tool</h3>
+                    <div className='flex-none lg:flex'>
+                        <ul className='my-5 ml-8 list-disc'>
+                            <li> I was recently selected to create the schedule for the Recreation Staff at Hale-Andrews Student Life Center</li>
+                            <li>Previously, this task was completed by hand, I wanted to use Object-Oriented Programming to create a tool that would assist in the creation of the schedule</li>
+                            <li>I am planning on creating a UI for this program in the future</li>
+                            <li><a className='text-blue-500 underline' href='https://github.com/vdigi00/slcschedule'>View GitHub Repository</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div data-aos='fade-left' data-aos-delay='500' className='text-xl py-5'>
                     <h3 className='text-2xl font-MADE-TOMMY-Medium'>Personal Website</h3>
                     <div className='flex-none lg:flex'>
                         <ul className='my-5 ml-8 list-disc'>

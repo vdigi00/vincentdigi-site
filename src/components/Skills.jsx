@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGitAlt, FaPython, FaJava, FaReact, FaHtml5, FaCss3Alt, FaLinux, FaWindows, FaServer, FaDraftingCompass, FaMusic, FaGuitar, FaHiking } from "react-icons/fa";
+import { FaPython, FaJava, FaReact, FaHtml5, FaCss3Alt, FaLinux, FaWindows, FaServer, FaGitAlt, FaDraftingCompass, FaMusic, FaGuitar, FaHiking } from "react-icons/fa";
 import { FaTent } from "react-icons/fa6";
 import { GiSolderingIron } from "react-icons/gi";
 import { GrVmware } from "react-icons/gr";
@@ -18,12 +18,6 @@ const Skills = () => {
                         <a href='#projects' className='skills-item'>
                             <SiGnubash size={35} />
                             <span className='pl-3'>Bash</span>
-                        </a>
-                    </div>
-                    <div data-aos='fade-in'>
-                        <a href='#projects' className='skills-item'>
-                            <FaGitAlt size={35}/>
-                            <span className='pl-3'>Git</span>
                         </a>
                     </div>
                     <div data-aos='fade-in'>
@@ -106,6 +100,12 @@ const Skills = () => {
                         <a href='#projects' className='skills-item'>
                             <GrVmware size={35} />
                             <span className='pl-3'>Virtualization</span>
+                        </a>
+                    </div>
+                    <div data-aos='fade-in'>
+                        <a href='#projects' className='skills-item'>
+                            <FaGitAlt size={35}/>
+                            <span className='pl-3'>Git</span>
                         </a>
                     </div>
                     <div data-aos='fade-in'>

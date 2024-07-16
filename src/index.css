@@ -4,15 +4,12 @@
 
 @layer base {
   html{
-    font-family: "MADE-TOMMY-Regular", system-ui, sans-serif;
+    font-family: "MADE-TOMMY-Regular", Tahoma, system-ui, sans-serif;
     scroll-behavior: smooth;
     font-size: 90%;
-    overflow-x: hidden;
   }
-  @media screen and (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    } 
+  #page{
+    overflow-x: hidden;
   }
   h1{
     @apply text-4xl font-MADE-TOMMY-Medium;
@@ -23,6 +20,7 @@
   .text-shadow{
     filter: drop-shadow(-1px 2px 2px rgb(0, 0, 0, 0.75));
   }
+  /* Custom fonts */
   @font-face {
     font-family: "MADE-TOMMY-Regular";
     src: url('/fonts/MADETOMMY/MADE-TOMMY-Regular.otf') format('opentype');
@@ -33,21 +31,30 @@
   }
 }
 @layer components{
-  .skills-item {
-    @apply inline-block outline outline-2 min-w-[200px] max-h-[68px] content-center lg:basis-skills-lg basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
-  }
-  .skills-content{
-    @apply flex flex-1 justify-center items-center;
-  }
-
+  /* Nav */
   .mobile-nav{
-    @apply min-w-[200px] flex justify-center items-center bg-white m-2 p-4 text-xl font-MADE-TOMMY-Medium cursor-pointer hover:scale-110 ease-in duration-150 ;
+    @apply min-w-[200px] flex justify-center items-center bg-white m-2 p-4 text-xl font-MADE-TOMMY-Medium cursor-pointer hover:scale-110 ease-in duration-150;
   }
-
   .desktop-nav{
     @apply w-[8em] flex justify-center items-center mx-1 p-3 text-lg text-white font-MADE-TOMMY-Regular pt-4 border-b-4 border-transparent hover:border-white transition-all duration-200;
   }
+  /* Skills */
+  .skills-item {
+    @apply inline-block outline outline-2 min-w-[200px] max-h-[68px] justify-center items-center content-center lg:basis-skills-lg basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
+  }
+  .skills-content{
+    @apply flex flex-1 whitespace-nowrap justify-center items-center;
+  }
+  .icon{
+    @apply flex justify-center items-center lg:text-[30px] text-[25px];
+  }
 
+  /* Responsiveness and accessibility */
+  @media screen and (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    } 
+  }
   @media only screen and (min-width: 1024px) {
     html{
       font-size: 100%;

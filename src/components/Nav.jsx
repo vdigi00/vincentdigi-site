@@ -1,11 +1,11 @@
-import { React, useState } from 'react'
-import { AiOutlineMenu } from 'react-icons/ai'
+import { React, useState } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Nav = () => {
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(false);
     const handleNav = () => {
         setNav(!nav)
-    }
+    };
     
     return (
         <div id='nav'> 
@@ -52,6 +52,6 @@ const Nav = () => {
             }
         </div>
     )
-}
+};
 
-export default Nav
+export default Nav;

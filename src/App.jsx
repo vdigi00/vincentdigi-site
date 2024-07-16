@@ -15,7 +15,7 @@ AOS.init({
 
 function App() {
   return (
-    <div>
+    <div id='page'>
       <Nav />
       <Hero />
       <About />
@@ -24,6 +24,6 @@ function App() {
       <Footer />
     </div>
   )
-}
+};
 
-export default App
+export default App;

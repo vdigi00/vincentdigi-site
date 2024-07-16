@@ -4,18 +4,27 @@
 
 @layer base {
   html{
-    font-family: "MADE-TOMMY-Regular", Tahoma, system-ui, sans-serif;
+    font-family: "MADE-TOMMY-Light", Tahoma, system-ui, sans-serif;
     scroll-behavior: smooth;
-    font-size: 90%;
+    font-size: 80%;
   }
   #app{
     overflow-x: hidden;
     cursor: default;
   }
+  #projects{
+    @apply bg-slate-800;
+  }
+  #footer{
+    @apply bg-slate-800;
+  }
   h1{
     @apply text-4xl font-MADE-TOMMY-Medium;
   }
   h2{
+    @apply text-2xl font-MADE-TOMMY-Regular;
+  }
+  h3{
     @apply text-2xl font-MADE-TOMMY-Medium;
   }
   .text-shadow{
@@ -29,6 +38,10 @@
   @font-face {
     font-family: "MADE-TOMMY-Medium";
     src: url('/fonts/MADETOMMY/MADE-TOMMY-Medium.otf') format('opentype');
+  }
+  @font-face {
+    font-family: "MADE-TOMMY-Light";
+    src: url('/fonts/MADETOMMY/MADE-TOMMY-Light.otf') format('opentype');
   }
 }
 @layer components{

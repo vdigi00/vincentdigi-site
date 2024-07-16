@@ -12,7 +12,8 @@ export default {
       },
       fontFamily: {
         'MADE-TOMMY-Regular': ['"MADE-TOMMY-Regular"', 'sans-serif'],
-        'MADE-TOMMY-Medium': ['"MADE-TOMMY-Medium"', 'sans-serif']
+        'MADE-TOMMY-Medium': ['"MADE-TOMMY-Medium"', 'sans-serif'],
+        'MADE-TOMMY-Light': ['"MADE-TOMMY-Light"', 'sans-serif']
       },
     },
   },

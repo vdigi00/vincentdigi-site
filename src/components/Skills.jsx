@@ -64,12 +64,12 @@ const Skills = () => {
     return (
         <section id='skills'>
             <div className='m-auto max-w-[1000px] p-8'>
-                <h1 data-aos='fade-right' className='pb-8 underline'>Skills</h1>
+                <h1 data-aos='fade-right' className='pb-8 underline underline-offset-8'>Skills</h1>
                 <h2 data-aos='fade-right' className='pb-8'>Languages & Frameworks:</h2>
                 <SkillsSection skills={skills} />
                 <h2 data-aos='fade-right' className='py-8'>Tools & Operating Systems:</h2>
                 <SkillsSection skills={tools} />
-                <h1 data-aos='fade-right' className='py-8 underline'>Interests</h1>
+                <h1 data-aos='fade-right' className='py-8 underline underline-offset-8'>Interests</h1>
                 <SkillsSection skills={interests} />
             </div>
         </section>

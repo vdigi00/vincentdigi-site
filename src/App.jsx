@@ -15,15 +15,15 @@ AOS.init({
 
 function App() {
   return (
-    <div>
+    <main id='app'>
       <Nav />
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Footer />
-    </div>
+    </main>
   )
-}
+};
 
-export default App
+export default App;

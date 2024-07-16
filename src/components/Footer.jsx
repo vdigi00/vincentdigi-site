@@ -2,12 +2,12 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div id='footer' className='mb-10 cursor-default'>
-            <div className='max-w-[800px] m-auto px-8'>
-                <footer className='text-center'>© 2024 Vincent DiGiovanni</footer>
-            </div>
-        </div>
+        <section id='footer'>
+            <footer className='py-8 text-center text-white'>
+                © 2024 Vincent DiGiovanni
+            </footer>
+        </section>
     )
-}
+};
 
-export default Footer
+export default Footer;

@@ -3,7 +3,7 @@ import { FaFileDownload } from "react-icons/fa";
 
 const About = () => {
     return (
-        <div id='about' className='cursor-default'>
+        <section id='about'>
             <div className='m-auto max-w-[1000px] p-8'>
                 <h1 data-aos='fade-right' className='pb-8 underline'>About Me</h1>
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl'>
@@ -18,7 +18,7 @@ const About = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 

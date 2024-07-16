@@ -8,7 +8,7 @@ const Nav = () => {
     };
     
     return (
-        <div id='nav'> 
+        <nav id='nav'> 
             <AiOutlineMenu onClick={ handleNav } className='fixed top-8 right-8 z-[99] lg:hidden' size={30} color="white"/>
             {
                 nav ? (
@@ -50,7 +50,7 @@ const Nav = () => {
                     </nav>
                 )
             }
-        </div>
+        </nav>
     )
 };
 

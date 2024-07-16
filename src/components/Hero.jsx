@@ -4,7 +4,7 @@ import { RiArrowDownWideFill } from 'react-icons/ri';
 
 const Hero = () => {
     return (
-        <div id='home'>
+        <section id='home'>
             <img className='w-full h-screen object-cover' src='/images/cover.jpg' alt='Space Background' loading=" lazy" />
             <div className='m-auto w-full h-screen absolute top-0 left-0 flex flex-col justify-center items-center bg-black/60 cursor-default'>
                 <div className='absolute flex flex-col justify-center grow text-white text-shadow'>
@@ -31,7 +31,7 @@ const Hero = () => {
                     
                 </div>
             </div>
-        </div>
+        </section>
     )
 };
 

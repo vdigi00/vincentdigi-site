@@ -8,8 +8,9 @@
     scroll-behavior: smooth;
     font-size: 90%;
   }
-  #page{
+  #app{
     overflow-x: hidden;
+    cursor: default;
   }
   h1{
     @apply text-4xl font-MADE-TOMMY-Medium;
@@ -40,13 +41,18 @@
   }
   /* Skills */
   .skills-item {
-    @apply inline-block outline outline-2 min-w-[200px] max-h-[68px] justify-center items-center content-center lg:basis-skills-lg basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
+    @apply inline-block outline outline-2 min-w-52 min-h-16 justify-center items-center content-center lg:basis-skills-lg basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
   }
   .skills-content{
-    @apply flex flex-1 whitespace-nowrap justify-center items-center;
+    @apply flex flex-1 justify-center items-center;
   }
   .icon{
-    @apply flex justify-center items-center lg:text-[30px] text-[25px];
+    @apply flex shrink-0 justify-center items-center lg:text-[30px] text-[25px];
+  }
+  .skills-content span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   /* Responsiveness and accessibility */

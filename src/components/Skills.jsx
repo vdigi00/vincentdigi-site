@@ -62,7 +62,7 @@ const SkillsSection = ({ skills }) => (
 
 const Skills = () => {
     return (
-        <div id='skills' className='cursor-default'>
+        <section id='skills'>
             <div className='m-auto max-w-[1000px] p-8'>
                 <h1 data-aos='fade-right' className='pb-8 underline'>Skills</h1>
                 <h2 data-aos='fade-right' className='pb-8'>Languages & Frameworks:</h2>
@@ -72,7 +72,7 @@ const Skills = () => {
                 <h1 data-aos='fade-right' className='py-8 underline'>Interests</h1>
                 <SkillsSection skills={interests} />
             </div>
-        </div>
+        </section>
     )
 };
 

@@ -2,11 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div id='footer' className='mb-10 cursor-default'>
-            <div className='max-w-[800px] m-auto px-8'>
-                <footer className='text-center'>© 2024 Vincent DiGiovanni</footer>
-            </div>
-        </div>
+        <section id='footer'>
+            <footer className='my-8 text-center'>
+                © 2024 Vincent DiGiovanni
+            </footer>
+        </section>
     )
 };
 

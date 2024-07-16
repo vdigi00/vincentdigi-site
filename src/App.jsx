@@ -15,14 +15,14 @@ AOS.init({
 
 function App() {
   return (
-    <div id='page'>
+    <main id='app'>
       <Nav />
       <Hero />
       <About />
       <Projects />
       <Skills />
       <Footer />
-    </div>
+    </main>
   )
 };
 

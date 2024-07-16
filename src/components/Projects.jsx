@@ -2,8 +2,8 @@ import React from 'react';
 
 const Projects = () => {
     return (
-        <div id='projects' className='bg-gray-100 cursor-default'>
-            <div className='m-auto max-w-[1000px] p-8'>
+        <section id='projects'>
+            <div className='m-auto max-w-[1000px] p-8 bg-gray-100'>
                 <h1 data-aos='fade-right' className='pb-8 underline'>Projects</h1>
                 <div data-aos='fade-left' data-aos-delay='500' className='text-xl pb-5'>
                     <h3 className='text-2xl font-MADE-TOMMY-Medium'>C# Scheduling Tool</h3>
@@ -67,7 +67,7 @@ const Projects = () => {
                     <h3>3D Printed Planes</h3>
                 </div>*/}
             </div>
-        </div>
+        </section>
     )
 };
 

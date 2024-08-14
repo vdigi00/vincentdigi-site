@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       flexBasis: {
-        "skills-lg": "calc(25% - (3/4 * 1rem))",
-        "skills-md": "calc(33.33% - (2/3 * 1rem))"
+        "skills-md": "calc(25% - (3/4 * 1rem))"
       },
       fontFamily: {
         'MADE-TOMMY-Regular': ['"MADE-TOMMY-Regular"', 'sans-serif'],

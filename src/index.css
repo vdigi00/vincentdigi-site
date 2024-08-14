@@ -54,9 +54,10 @@
   }
   /* Skills */
   .skills-item {
-    @apply inline-block outline outline-2 min-w-52 min-h-16 justify-center items-center content-center lg:basis-skills-lg basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600 hover:scale-110 ease-in duration-150;
+    @apply inline-block outline outline-2 min-w-48 min-h-16 justify-center items-center content-center basis-skills-md p-4 cursor-pointer font-MADE-TOMMY-Regular shadow-md shadow-slate-600;
   }
   .skills-content{
+    font-size: calc(10px + (13 - 10) * ((90vw - 300px) / (1000 - 300)));
     @apply flex flex-1 justify-center items-center;
   }
   .icon{
